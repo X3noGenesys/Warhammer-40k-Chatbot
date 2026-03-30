@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+wh40k_env/
+.env
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# Artifacts
+kg_artifacts/
+
+# Models
+models/
+
+# Pipeline outputs
+data/*
+!data/
+!data/synonyms.jsonl
