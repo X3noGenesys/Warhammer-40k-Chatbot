@@ -70,7 +70,9 @@ The files required are:
 - The completed `models` folder
 
 Warning: You cannot do an hybrid execution (executing some of the scripts AND copying some of the files). All the files/models depends on each other, so mixing pipelines result together will break the trained models.
+
 The creation of the graph is **not deterministic**, so the model trained on one graph cannot be used to infer on another.
+
 => **What we recommend:** First execute some of the scripts of the pipeline to verify that the project is functional and reproducible, and then (since you will most likely run the scripts that takes 22h of runtime) copy the prepared files to overwrite the results of your tests.
 
 ## Running
